@@ -1,0 +1,31 @@
+img {
+  max-width: 100%;
+}
+
+.boks1,
+.boks2 {
+  border: 2px solid black;
+  margin: 10px;
+}
+
+header,
+footer {
+  border: 2px solid black;
+  margin: -10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+header h1,
+footer h1 {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+@media (min-width: 800px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
